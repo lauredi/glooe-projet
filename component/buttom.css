@@ -1,0 +1,30 @@
+.btn-menu{
+  font-size: 30px;
+  padding: 10px 10px;
+  background-color: #00a297;
+  color: black;
+  text-decoration-line: none;
+}
+a:hover{
+  background-color: white;
+  color: #00a297;
+  text-decoration-line: none;
+}
+
+.buttom{
+  font-size: 20px;
+  background-color: #ef822d;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  color: black;
+  text-decoration-line: none; 
+
+}
+a:hover{
+  text-decoration-line: none;
+  color: white;
+  background-color: black;
+}
+}
+
+

@@ -1,0 +1,78 @@
+.banner {
+	background-image: url(../images/Funny-fish-Orange.png);
+	background-size: cover;
+	background-position: center;
+	padding: 200px 0px;
+}
+
+.banner h1 {
+	padding-bottom: 20px;
+	text-align: left;
+	padding-left: 70px;
+}
+
+.banner h2 {
+	color: black;
+	text-align: left;
+	padding-left: 70px;
+}
+
+.banner a{
+	font-size: 30px;
+	text-align: left;
+	background-color: black;
+	padding: 15px 20px 20px;
+	border-radius: 10px;
+	color: white;
+	text-decoration-line: none; 
+	margin-left: 460px;
+	margin-top: 80px;
+}
+a:hover{
+	background-color: #ef822d;
+	color: white;
+}
+
+.container-banner p {
+	text-align: left;
+}
+
+
+@media (max-width: 992px) {
+	/* For a screen <992px, this CSS will be read */
+	.banner{
+		max-width: 900px; 
+		background-size: cover;
+		background-position: center;  
+	}
+}
+
+@media (max-width: 768px) {
+	/* For a screen <768px, this CSS will be read */
+	.banner{
+		max-width: 600px;
+		background-size: auto;
+		background-position: center;
+	}
+	.banner h1 h2 a{
+		font-size: 10px;
+	}
+	.banner a{
+		margin-left: 0px;
+	}
+}
+
+@media (max-width: 540px) {
+	/* For a screen <540px, this CSS will be read */
+	.banner{
+		max-width: 500px;
+		background-size: auto;
+		background-position: center;
+	}
+	.banner h1 h2 a{
+		font-size: 10px;
+	}
+	.banner a{
+		margin-left: 0px;
+	}
+}

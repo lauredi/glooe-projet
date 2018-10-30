@@ -1,0 +1,74 @@
+.card-presentation {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.card-presentation-box {
+    flex-basis: 250px;
+    flex-grow: 1;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-presentation-box img {
+    width: 100px;
+    border-radius: 5px;*/
+    box-shadow: 2px 2px 3px #00a297;
+}
+
+.card-presentation-box h3 {
+    flex-grow: 1;
+}
+
+.card-presentation-box p {
+    flex-grow: 1;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+#box-bgd-conception{
+    background-color: #00a297;
+}
+#box-bgd-creation{
+    background-color: white;
+}
+#box-bgd-evolution{
+    background-color: #00a297;
+}
+
+
+
+@media (max-width: 992px) {
+    /* For a screen <992px, this CSS will be read */
+    .card-presentation {
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* For a screen <768px, this CSS will be read */
+    .card-presentation {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    .card-presentation-box p{
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 540px) {
+    /* For a screen <540px, this CSS will be read */
+    .card-presentation  {
+        max-width: 500px;
+    }
+    .card-presentation-box p{
+        max-width: 200px;
+    }
+}

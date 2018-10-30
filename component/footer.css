@@ -1,0 +1,49 @@
+.footer {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+
+#logo-footer {
+  display: flex;
+  width: 100px;
+}
+
+
+#footer-btn a {
+  color: #00a297;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 0px 10px;
+}
+
+#footer-btn a:hover {
+  opacity: 1;
+  color: white;
+
+}
+
+
+
+@media (max-width: 992px) {
+  /* For a screen < 992px, this CSS will be read */
+  .footer {
+    max-width: 900px;
+  }
+}
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .footer {
+    max-width: 600px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .footer {
+    max-width: 500px;
+  }
+}

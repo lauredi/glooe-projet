@@ -1,0 +1,59 @@
+.nav {
+	display: flex;
+	justify-content: space-between;
+	background-color: #191a1b;
+}
+
+.nav img {  
+	width: 300px;
+	margin: auto;
+	padding: 25px 0px 0px 20px;
+}
+
+.nav ul {
+	color: #ef822d;
+	display: block;
+	float: left;
+	width: 100%;
+	padding: 10px 10px;
+	margin-left: 0px;
+	font-size: 40px;
+	list-style-type: none;
+}
+
+.nav li{
+	display: inline;
+	font-family: 'Exo 2', sans-serif;
+	padding-left: 10px;
+	border-radius: 6px;
+}
+
+
+
+@media (max-width: 992px) {
+	/* For a screen <992px, this CSS will be read */
+	.nav {
+		max-width: 900px;
+	}
+}
+
+@media (max-width: 768px) {
+	/* For a screen <768px, this CSS will be read */
+	.nav {
+		max-width: 600px;
+	}
+	.nav li{
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 540px) {
+	/* For a screen <540px, this CSS will be read */
+	.nav {
+		max-width: 500px;
+	}
+	.nav li{
+		visibility: hidden;
+	}
+}
+
